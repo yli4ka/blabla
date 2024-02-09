@@ -1,0 +1,90 @@
+.container{
+		display: grid;
+		grid-template-areas:
+		'header header'
+		'menu menu'
+		'sidebar content'
+		'footer footer';
+
+		grid-gap: 0;
+		grid-template-columns: 245px auto;
+		grid-template-rows: 120px auto 1fr 30px;
+	}
+	.item{
+		padding: 10px;
+		border: 1px solid black;
+	}
+	.header{
+		grid-area: header;
+		background: #ccc;
+		color: #696969;
+		line-height: 0.3em;
+		padding: 1px 0 0 100px;
+	}
+	.menu{
+		grid-area: menu;
+		background: #2c2c2c;
+		color: #fff;
+		margin-bottom: 15px;
+	}
+	.sidebar{
+		grid-area: sidebar;
+		background-color: #ccc;
+	}
+	.content{
+		grid-area: content;
+		padding-left: 15px;
+		height: 60vh;
+		font-family: sans-serif;
+	}
+	.footer{
+		grid-area: footer;
+		background: #2c2c2c;
+	}
+	.btn{
+		display: inline-block;
+		text-decoration: none;
+		color: white;
+		height: 30px;
+		text-align: center;
+		padding: 5px 15px 5px 18px;
+		font-family:system-ui;
+	}
+	.her{
+		font-size: 11px;
+	}
+	a:hover{
+		background: white;
+		color: black;
+	}
+	.link{
+		   background: #2c2c2c;
+        color:white;
+        font-size: 15px;
+        margin-left: 3px;
+        text-decoration: none;
+        display:inline-block;
+        line-height: 35px;
+        padding: 0.1em 20px 5px 15px;
+        white-space: nowrap;
+        font-family: system-ui;
+
+	}
+	.link:hover{
+		background: white;
+		color:black;
+		text-decoration: underline;
+		font-family: system-ui;
+	}
+	.bl{
+		margin: 10px 0 0 15px;
+	}
+	.square{
+		grid-area: header;
+		height: 80px;
+		width: 80px;
+		background: white;
+		position: absolute;
+		margin: 10px 0 0 10px;
+	}
+	body{padding: 0px 140px;}
