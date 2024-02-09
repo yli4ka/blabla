@@ -41,6 +41,16 @@
 		grid-area: footer;
 		background: #2c2c2c;
 	}
+	.hs{
+		font-weight: 300;
+		font-family: sans-serif;
+		 text-transform: uppercase;
+	}
+	.hs2{
+		font-weight: 100;
+		font-family: sans-serif;
+		 text-transform: uppercase;
+	}
 	.btn{
 		display: inline-block;
 		text-decoration: none;
@@ -49,9 +59,6 @@
 		text-align: center;
 		padding: 5px 15px 5px 18px;
 		font-family:system-ui;
-	}
-	.her{
-		font-size: 11px;
 	}
 	a:hover{
 		background: white;
@@ -87,4 +94,24 @@
 		position: absolute;
 		margin: 10px 0 0 10px;
 	}
-	body{padding: 0px 140px;}
+	.ps{
+		font-size: 25px;
+		 line-height: 0; 
+		 display: inline-block; 
+		 bottom: 10px;
+		  position: relative;
+	}
+	.ps2{
+		bottom:30px;
+		 position: relative;
+	}
+	.ps3{
+		font-size: 20px;
+		 bottom: 40px;
+		  position: relative;
+	}
+	.yu{
+		style="bottom: 50px;
+		 position: relative;
+	}
+	body{padding: 0 140px;}
